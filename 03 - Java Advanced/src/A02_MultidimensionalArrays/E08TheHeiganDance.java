@@ -73,6 +73,9 @@ public class E08TheHeiganDance {
                 }
             }
         }
+
+        lastCastedSpell = lastCastedSpell.equals("Cloud") ? "Plague Cloud" : lastCastedSpell;
+
         if(boosHealth <= 0){
             System.out.println("Heigan: Defeated!");
         }else {
@@ -85,7 +88,7 @@ public class E08TheHeiganDance {
             System.out.println(String.format("Player: %.0f", playHealth));
         }
 
-        System.out.printf("Final position %d, %d", playerRow, playerCol);
+        System.out.printf("Final position: %d, %d", playerRow, playerCol);
     }
 
     private static boolean movePlayer(int targetRow, int targetCol) {
@@ -117,8 +120,8 @@ public class E08TheHeiganDance {
     }
 
     private static boolean canMove(int targetRow, int targetCol, int newRow, int newCol) {
-        return !(newRow < targetRow - 1 && newRow > targetRow +1
-                && newCol < targetCol - 1 && newCol > targetCol + 1);
+        return newRow < targetRow - 1 || newRow > targetRow +1
+                || newCol < targetCol - 1 || newCol > targetCol + 1;
 
     }
 
