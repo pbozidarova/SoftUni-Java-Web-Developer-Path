@@ -1,0 +1,20 @@
+package A05_FunctionalProgramming;
+
+public class E10PredicateParty {
+
+//    The Wire’s parents are on a vacation for the holidays and he is planning an epic party at home. Unfortunately,
+//    his organizational skills are next to non-existent so you are given the task to help him with the reservations.
+//    On the first line you get a list with all the people that are coming. On the next lines, until you get the
+//    "Party!" command, you may be asked to double or remove all the people that apply to given criteria.
+//    There are three different options:
+//•	Everyone that has a name starting with a given string;
+//•	Everyone that has a name ending with a given string;
+//•	Everyone that has a name with a given length.
+//    When you print the guests that are coming to the party, you have to print them in ascending order.
+//    If nobody is going, print "Nobody is going to the party!". See the examples below:
+
+
+    public static void main(String[] args) {
+
+    }
+}
