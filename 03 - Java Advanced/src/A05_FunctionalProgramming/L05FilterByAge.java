@@ -47,20 +47,39 @@ public class L05FilterByAge {
         int ageLimit = Integer.parseInt(scanner.nextLine());
         String printType = scanner.nextLine();
 
+        Consumer<Map.Entry<String, Integer>> print  = printNameAndAge;
+        if(printType.equals("age")){
+            print = printAge;
+        }else if(printType.equals("name")){
+            print = printName;
+        }
+
+        BiPredicate<Map.Entry<String, Integer>, Integer> byAge = youngerThan;
+        if(comparison.equals("older")){
+            byAge = olderThan;
+        }
+
+        BiPredicate<Map.Entry<String, Integer>, Integer> finalByAge = byAge;
+
+//        people.entrySet().stream()
+//                .filter(person -> comparison.equals("younger")
+//                        ? youngerThan.test(person, ageLimit)
+//                        : olderThan.test(person, ageLimit)
+//                )
+//                .forEach(person -> {
+//                    if(printType.equals("age")){
+//                        printAge.accept(person);
+//                    }else if(printType.equals("name")){
+//                        printName.accept(person);
+//                    }else {
+//                        printNameAndAge.accept(person);
+//                    }
+//                });
+
         people.entrySet().stream()
-                .filter(person ->
-                        comparison.equals("younger")
-                        ? youngerThan.test(person, ageLimit)
-                        : olderThan.test(person, ageLimit))
-                .forEach(person -> {
-                    if(printType.equals("age")){
-                        printAge.accept(person);
-                    }else if(printType.equals("name")){
-                        printName.accept(person);
-                    }else {
-                        printNameAndAge.accept(person);
-                    }
-                });
+                .filter(person -> finalByAge.test(person, ageLimit))
+                .forEach(print);
+
 
     }
 }
