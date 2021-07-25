@@ -17,10 +17,7 @@ public class E03CustomMinFunction {
                 .mapToInt(Integer::parseInt)
                 .toArray();
 
-        Function<int[], Integer> minNumber = arr -> {
-            int min = Arrays.stream(arr).min().getAsInt();
-            return min;
-        };
+        Function<int[], Integer> minNumber = arr -> Arrays.stream(arr).min().getAsInt();
 
         System.out.println(minNumber.apply(numbers));
 
