@@ -1,6 +1,5 @@
-package A06_DefiningClasses.l01CarInfo;
+package A06_DefiningClasses.l02CarConstructors;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Car {
@@ -14,11 +13,15 @@ public class Car {
 //    }
 
     public Car(String make) {
-        this.make = make;
+        this(make, "unknown", -1);
+//
+//        this.make = make;
+//        this.model = "unknown";
+//        this.horsePower = -1;
     }
 
     public Car(String make, String model, int horsePower) {
-        this(make);
+        this.make = make;
         this.model = model;
         this.horsePower = horsePower;
     }

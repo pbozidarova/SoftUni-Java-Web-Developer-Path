@@ -1,4 +1,4 @@
-package A06_DefiningClasses.l01CarInfo;
+package A06_DefiningClasses.l02CarConstructors;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,16 +24,23 @@ public class Main {
             String[] tokens = line.split("\\s+");
 
             String make = tokens[0];
-            String model = tokens[1];
+            if(tokens.length > 1){
 
-            int horsePower = Integer.parseInt(tokens[2]);
+                String model = tokens[1];
 
-            Car car = new Car(make, model, horsePower);
-//            car.setModel(model);
-//            car.setMake(make);
-//            car.setHorsePower(horsePower);
+                int horsePower = Integer.parseInt(tokens[2]);
 
-            cars.add(car);
+                Car car = new Car(make, model, horsePower);
+    //            car.setModel(model);
+    //            car.setMake(make);
+    //            car.setHorsePower(horsePower);
+                cars.add(car);
+            }else {
+                Car car = new Car(make);
+                cars.add(car);
+            }
+
+
        }
 
         cars.forEach(c -> System.out.println(c.carInfo()));
