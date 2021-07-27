@@ -1,16 +1,29 @@
 package A07_Workshop;
 
+import java.util.Comparator;
+
 public class Main {
 
     public static void main(String[] args) {
-        SmartArray smartArray = new SmartArray();
+        SmartArray<CustomStack> someCrazyList = new SmartArray();
+        CustomStack customStack = new CustomStack();
+        customStack.push(123);
+        customStack.push(23);
+        customStack.push(322222);
 
-        smartArray.add(1);
-        smartArray.add(2);
-        smartArray.add(3);
-        smartArray.add(4);
-        smartArray.add(5);
 
-        System.out.println();
+        someCrazyList.add(customStack);
+
+        CustomStack customStack2 = new CustomStack();
+        customStack2.push(4);
+        customStack2.push(5);
+        customStack2.push(6);
+
+        someCrazyList.add(customStack2);
+
+        someCrazyList.forEach(cs -> {
+            cs.forEach(System.out::println);
+        });
+
     }
 }
