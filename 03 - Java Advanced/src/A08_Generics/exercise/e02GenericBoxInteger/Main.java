@@ -1,4 +1,4 @@
-package A08_Generics.exercise.e01GenericBox;
+package A08_Generics.exercise.e02GenericBoxInteger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,9 +16,9 @@ public class Main {
         int n = Integer.parseInt(reader.readLine());
 
         while (n-- > 0){
-            String str = reader.readLine();
+            int str = Integer.parseInt(reader.readLine());
 
-            Box<String> box = new Box<>(str);
+            Box<Integer> box = new Box<>(str);
 
             System.out.println(box.toString());
         }

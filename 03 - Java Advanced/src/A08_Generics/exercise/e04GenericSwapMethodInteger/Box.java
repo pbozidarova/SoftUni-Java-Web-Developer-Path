@@ -1,4 +1,4 @@
-package A08_Generics.exercise.e01GenericBox;
+package A08_Generics.exercise.e04GenericSwapMethodInteger;
 
 public class Box<T> {
     private T element;
