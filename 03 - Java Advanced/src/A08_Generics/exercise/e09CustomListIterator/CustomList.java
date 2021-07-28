@@ -1,11 +1,12 @@
-package A08_Generics.exercise.e08CustomListSorter;
+package A08_Generics.exercise.e09CustomListIterator;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class CustomList<T extends Comparable<T>> {
+public class CustomList<T extends Comparable<T>> implements Iterable<T> {
 
     private List<T> data;
 
@@ -56,9 +57,27 @@ public class CustomList<T extends Comparable<T>> {
         customList.data.forEach(System.out::println);
     }
 
-    public void forEach(Consumer<T> consumer){
-        for (T element : this.data) {
-            consumer.accept(element);
-        }
+//    public void forEach(Consumer<T> consumer){
+//        for (T element : this.data) {
+//            consumer.accept(element);
+//        }
+//    }
+
+    @Override
+    public Iterator<T> iterator() {
+
+        return new Iterator<T>() {
+            private int index = 0;
+
+            @Override
+            public boolean hasNext() {
+                return this.index < data.size();
+            }
+
+            @Override
+            public T next() {
+                return data.get(this.index++);
+            }
+        };
     }
 }

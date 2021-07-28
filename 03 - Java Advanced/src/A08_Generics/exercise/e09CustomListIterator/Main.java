@@ -1,4 +1,4 @@
-package A08_Generics.exercise.e08CustomListSorter;
+package A08_Generics.exercise.e09CustomListIterator;
 
 import java.util.Scanner;
 
@@ -48,7 +48,9 @@ public class Main {
                     System.out.println(list.getMin());
                     break;
                 case "Print":
-                    list.forEach(System.out::println);
+                    for (String element : list) {
+                        System.out.println(element);
+                    }
                     break;
                 case "Sort":
                     Sorter.sort(list);
