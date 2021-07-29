@@ -22,6 +22,14 @@ public class Car {
         return this.make;
     }
 
+    public String getModel() {
+        return model;
+    }
+
+    public int getHorsePower() {
+        return horsePower;
+    }
+
     @Override
     public String toString() {
         return String.format("Make: %s%n" +
