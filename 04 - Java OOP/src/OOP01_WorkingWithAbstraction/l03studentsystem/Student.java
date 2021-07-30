@@ -34,4 +34,26 @@ public class Student {
     public void setGrade(double grade) {
         this.grade = grade;
     }
+
+    @Override
+    public String toString() {
+        String nameAgeFormatted = String.format("%s is %s years old.",
+                this.getName(),
+                this.getAge());
+
+        return nameAgeFormatted + this.getGradeString();
+    }
+
+    private String getGradeString() {
+        String result = " Verynice person.";
+
+        if (this.getGrade() >= 5.00) {
+            result += " Excellent student.";
+        } else if (this.getGrade() < 5.00 && this.getGrade() >= 3.50) {
+            result += " Average student.";
+        }
+
+        return result;
+
+    }
 }
