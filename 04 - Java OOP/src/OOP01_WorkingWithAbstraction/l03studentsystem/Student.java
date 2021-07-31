@@ -45,7 +45,7 @@ public class Student {
     }
 
     private String getGradeString() {
-        String result = " Verynice person.";
+        String result = " Very nice person.";
 
         if (this.getGrade() >= 5.00) {
             result += " Excellent student.";
