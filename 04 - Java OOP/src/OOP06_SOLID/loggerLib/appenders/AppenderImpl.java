@@ -1,10 +1,10 @@
 package OOP06_SOLID.loggerLib.appenders;
 
-import L6_SOLID.loggerLib.appenders.interfaces.Appender;
-import L6_SOLID.loggerLib.enumerations.ReportLevel;
-import L6_SOLID.loggerLib.layouts.interfaces.Layout;
+import OOP06_SOLID.loggerLib.appenders.interfaces.Appender;
+import OOP06_SOLID.loggerLib.enumerations.ReportLevel;
+import OOP06_SOLID.loggerLib.layouts.interfaces.Layout;
 
-public abstract class AppenderImpl implements Appender{
+public abstract class AppenderImpl implements Appender {
     private Layout layout;
     private ReportLevel reportLevel;
     private int loggedMessage;

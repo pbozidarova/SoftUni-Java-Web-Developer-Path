@@ -1,6 +1,7 @@
 package OOP09_Workshop.core.system;
 
-import L10_Workshop.core.model.hardware.Hardware;
+
+import OOP09_Workshop.core.model.hardware.Hardware;
 
 import java.lang.reflect.Field;
 import java.util.LinkedHashMap;

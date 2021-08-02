@@ -1,7 +1,8 @@
 package OOP07_ReflectionAndAnnotations.barracksWars.core.commands;
 
-import L7_Reflection.barracksWars.annotations.Inject;
-import L7_Reflection.barracksWars.interfaces.Repository;
+
+import OOP07_ReflectionAndAnnotations.barracksWars.annotations.Inject;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Repository;
 
 public class Report extends Command {
     @Inject

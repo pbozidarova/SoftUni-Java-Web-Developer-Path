@@ -1,6 +1,5 @@
 package OOP03_Encapsulation.e2;
 
-import L3_Encapsulation.e2.Chicken;
 
 import java.util.Scanner;
 

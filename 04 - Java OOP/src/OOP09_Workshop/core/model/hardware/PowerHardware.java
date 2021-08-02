@@ -1,6 +1,5 @@
 package OOP09_Workshop.core.model.hardware;
 
-import L10_Workshop.core.model.software.Software;
 
 public class PowerHardware extends Hardware {
 

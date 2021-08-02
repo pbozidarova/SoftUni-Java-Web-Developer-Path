@@ -1,8 +1,8 @@
 package OOP09_Workshop.core.command;
 
-import L10_Workshop.core.model.software.ExpressSoftware;
-import L10_Workshop.core.model.software.Software;
-import L10_Workshop.core.system.SystemSplit;
+import OOP09_Workshop.core.model.software.ExpressSoftware;
+import OOP09_Workshop.core.model.software.Software;
+import OOP09_Workshop.core.system.SystemSplit;
 
 public class RegisterExpressSoftwareCommand extends BaseCommand {
     private SystemSplit systemSplit;

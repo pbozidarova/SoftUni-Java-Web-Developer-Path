@@ -1,6 +1,6 @@
 package OOP07_ReflectionAndAnnotations.barracksWars.models.units;
 
-import L7_Reflection.barracksWars.interfaces.Unit;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Unit;
 
 public abstract class AbstractUnit implements Unit {
     private int health;

@@ -1,13 +1,12 @@
 package OOP07_ReflectionAndAnnotations.barracksWars;
 
-import L7_Reflection.barracksWars.core.commands.CommandInterpreterImpl;
-import L7_Reflection.barracksWars.interfaces.CommandInterpreter;
-import L7_Reflection.barracksWars.interfaces.Repository;
-import L7_Reflection.barracksWars.interfaces.Runnable;
-import L7_Reflection.barracksWars.interfaces.UnitFactory;
-import L7_Reflection.barracksWars.core.Engine;
-import L7_Reflection.barracksWars.core.factories.UnitFactoryImpl;
-import L7_Reflection.barracksWars.data.UnitRepository;
+import OOP07_ReflectionAndAnnotations.barracksWars.core.Engine;
+import OOP07_ReflectionAndAnnotations.barracksWars.core.commands.CommandInterpreterImpl;
+import OOP07_ReflectionAndAnnotations.barracksWars.core.factories.UnitFactoryImpl;
+import OOP07_ReflectionAndAnnotations.barracksWars.data.UnitRepository;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.CommandInterpreter;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Repository;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.UnitFactory;
 
 public class Main {
 

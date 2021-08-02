@@ -1,9 +1,9 @@
 package OOP06_SOLID.loggerLib.appenders;
 
-import L6_SOLID.loggerLib.customFiles.File;
-import L6_SOLID.loggerLib.customFiles.LogFile;
-import L6_SOLID.loggerLib.enumerations.ReportLevel;
-import L6_SOLID.loggerLib.layouts.interfaces.Layout;
+import OOP06_SOLID.loggerLib.customFiles.File;
+import OOP06_SOLID.loggerLib.customFiles.LogFile;
+import OOP06_SOLID.loggerLib.enumerations.ReportLevel;
+import OOP06_SOLID.loggerLib.layouts.interfaces.Layout;
 
 import java.io.IOException;
 

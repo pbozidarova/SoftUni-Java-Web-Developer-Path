@@ -1,7 +1,7 @@
 package OOP07_ReflectionAndAnnotations.barracksWars.data;
 
-import L7_Reflection.barracksWars.interfaces.Repository;
-import L7_Reflection.barracksWars.interfaces.Unit;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Repository;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Unit;
 
 import java.util.Map;
 import java.util.TreeMap;

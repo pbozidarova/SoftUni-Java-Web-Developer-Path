@@ -1,8 +1,7 @@
 package OOP07_ReflectionAndAnnotations.barracksWars.core;
 
-import L7_Reflection.barracksWars.interfaces.*;
-import L7_Reflection.barracksWars.interfaces.Runnable;
 
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.CommandInterpreter;
 
 import java.io.BufferedReader;
 import java.io.IOException;

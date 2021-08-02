@@ -1,6 +1,6 @@
 package OOP05_Polymorphism.e3_.farm.animals;
 
-import L5_Polymorphism.e3_.farm.foods.Food;
+import OOP05_Polymorphism.e3_.farm.foods.Food;
 
 public class Zebra extends Mammal {
     public Zebra(String name, String type, double weight, String livingRegion) {

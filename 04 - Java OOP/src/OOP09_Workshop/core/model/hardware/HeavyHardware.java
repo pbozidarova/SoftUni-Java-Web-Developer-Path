@@ -1,7 +1,5 @@
 package OOP09_Workshop.core.model.hardware;
 
-import L10_Workshop.core.model.software.Software;
-
 import java.util.stream.Collectors;
 
 public class HeavyHardware extends Hardware {

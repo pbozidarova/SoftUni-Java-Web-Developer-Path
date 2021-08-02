@@ -1,6 +1,7 @@
 package OOP07_ReflectionAndAnnotations.barracksWars.core.commands;
 
-import L7_Reflection.barracksWars.interfaces.Executable;
+
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Executable;
 
 public abstract class Command implements Executable {
     private String[] data;

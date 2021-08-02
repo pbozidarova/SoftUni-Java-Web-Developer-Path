@@ -4,9 +4,8 @@ import OOP09_Workshop.core.command.Command;
 import OOP09_Workshop.core.command.factory.CommandFactory;
 import OOP09_Workshop.core.system.SystemSplit;
 import OOP09_Workshop.io.reader.Reader;
-import OOP09_Workshop2.models.interfaces.Model;
 
-public class Engine implements Model {
+public class Engine {
     private static final String END_COMMAND = "System Split";
 
     private SystemSplit systemSplit;
@@ -35,4 +34,6 @@ public class Engine implements Model {
         Command command = CommandFactory.buildCommand("SystemSplit", this.systemSplit);
         command.execute();
     }
+
+
 }

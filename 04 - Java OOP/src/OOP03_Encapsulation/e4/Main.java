@@ -1,7 +1,7 @@
 package OOP03_Encapsulation.e4;
 
-import L3_Encapsulation.e4.pizza.Dough;
-import L3_Encapsulation.e4.pizza.Topping;
+import OOP03_Encapsulation.e4.pizza.Dough;
+import OOP03_Encapsulation.e4.pizza.Topping;
 
 import java.util.Scanner;
 

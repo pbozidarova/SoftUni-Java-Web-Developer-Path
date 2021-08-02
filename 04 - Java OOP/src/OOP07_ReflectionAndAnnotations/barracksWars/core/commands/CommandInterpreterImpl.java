@@ -1,9 +1,9 @@
 package OOP07_ReflectionAndAnnotations.barracksWars.core.commands;
 
-import L7_Reflection.barracksWars.interfaces.CommandInterpreter;
-import L7_Reflection.barracksWars.interfaces.Executable;
-import L7_Reflection.barracksWars.interfaces.Repository;
-import L7_Reflection.barracksWars.interfaces.UnitFactory;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.CommandInterpreter;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Executable;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.Repository;
+import OOP07_ReflectionAndAnnotations.barracksWars.interfaces.UnitFactory;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
