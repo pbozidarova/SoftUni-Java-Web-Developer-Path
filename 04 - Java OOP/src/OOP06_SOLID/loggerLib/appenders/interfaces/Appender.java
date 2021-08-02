@@ -1,6 +1,7 @@
 package OOP06_SOLID.loggerLib.appenders.interfaces;
 
-import L6_SOLID.loggerLib.enumerations.ReportLevel;
+
+import OOP06_SOLID.loggerLib.enumerations.ReportLevel;
 
 import java.io.IOException;
 

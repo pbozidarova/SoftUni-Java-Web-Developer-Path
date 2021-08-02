@@ -1,6 +1,7 @@
 package OOP04_InterfacesAndAbstraction.e6_Military_Elite.army;
 
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.interfaces.Soldier;
+
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.interfaces.Soldier;
 
 public abstract class SoldierImpl implements Soldier {
     private int id;

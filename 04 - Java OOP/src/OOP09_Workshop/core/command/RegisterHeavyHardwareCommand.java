@@ -1,9 +1,8 @@
 package OOP09_Workshop.core.command;
 
-import L10_Workshop.core.model.hardware.Hardware;
-import L10_Workshop.core.model.hardware.HeavyHardware;
-import L10_Workshop.core.model.hardware.PowerHardware;
-import L10_Workshop.core.system.SystemSplit;
+import OOP09_Workshop.core.model.hardware.Hardware;
+import OOP09_Workshop.core.model.hardware.HeavyHardware;
+import OOP09_Workshop.core.system.SystemSplit;
 
 public class RegisterHeavyHardwareCommand extends BaseCommand {
     private SystemSplit systemSplit;

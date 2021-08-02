@@ -1,9 +1,10 @@
 package OOP09_Workshop2.models;
 
-import L10_Workshop_2.exeptions.ArgumentException;
-import L10_Workshop_2.helpers.Validator;
 
-import static L10_Workshop_2.helpers.Validator.generateErrorMessage;
+import OOP09_Workshop2.exeptions.ArgumentException;
+import OOP09_Workshop2.helpers.Validator;
+
+import static OOP09_Workshop2.helpers.Validator.generateErrorMessage;
 
 public class Yacht extends Boat {
     private Engine engine;

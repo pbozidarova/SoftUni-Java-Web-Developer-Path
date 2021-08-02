@@ -1,7 +1,5 @@
 package OOP04_InterfacesAndAbstraction.e2_e3;
 
-import L4_Interfaces_And_Abstractions.e2_e3.Pet;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

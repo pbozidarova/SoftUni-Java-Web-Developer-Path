@@ -1,7 +1,8 @@
 package OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.helperClasses;
 
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.enums.State;
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.helperClasses.interfaces.Mission;
+
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.enums.State;
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.helperClasses.interfaces.Mission;
 
 public class MissionImpl implements Mission {
     private String codeName;

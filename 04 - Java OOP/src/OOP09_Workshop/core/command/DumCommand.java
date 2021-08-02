@@ -1,6 +1,7 @@
 package OOP09_Workshop.core.command;
 
-import L10_Workshop.core.system.DumpExtension;
+
+import OOP09_Workshop.core.system.DumpExtension;
 
 public class DumCommand extends BaseCommand {
     private DumpExtension dumpExtension;

@@ -1,10 +1,10 @@
 package OOP09_Workshop;
 
-import L10_Workshop.core.engine.Engine;
-import L10_Workshop.core.system.DumpExtension;
-import L10_Workshop.core.system.SystemSplit;
-import L10_Workshop.io.reader.ConsoleReader;
-import L10_Workshop.io.reader.Reader;
+import OOP09_Workshop.core.engine.Engine;
+import OOP09_Workshop.core.system.DumpExtension;
+import OOP09_Workshop.core.system.SystemSplit;
+import OOP09_Workshop.io.reader.ConsoleReader;
+import OOP09_Workshop.io.reader.Reader;
 
 public class Main {
     public static void main(String[] args) {

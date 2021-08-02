@@ -1,6 +1,7 @@
 package OOP04_InterfacesAndAbstraction.e6_Military_Elite.army;
 
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.interfaces.Private;
+
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.interfaces.Private;
 
 public class PrivateImpl extends SoldierImpl implements Private {
     private double salary;

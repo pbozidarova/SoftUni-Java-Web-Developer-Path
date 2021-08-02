@@ -1,6 +1,7 @@
 package OOP09_Workshop2.models;
 
-import L10_Workshop_2.exeptions.ArgumentException;
+
+import OOP09_Workshop2.exeptions.ArgumentException;
 
 public class Sterndrive extends Engine {
     public Sterndrive(String model, int horsepower, int displacement) throws ArgumentException {

@@ -1,11 +1,12 @@
 package OOP09_Workshop.core.engine;
 
-import L10_Workshop.core.command.Command;
-import L10_Workshop.core.command.factory.CommandFactory;
-import L10_Workshop.core.system.SystemSplit;
-import L10_Workshop.io.reader.Reader;
+import OOP09_Workshop.core.command.Command;
+import OOP09_Workshop.core.command.factory.CommandFactory;
+import OOP09_Workshop.core.system.SystemSplit;
+import OOP09_Workshop.io.reader.Reader;
+import OOP09_Workshop2.models.interfaces.Model;
 
-public class Engine {
+public class Engine implements Model {
     private static final String END_COMMAND = "System Split";
 
     private SystemSplit systemSplit;

@@ -1,6 +1,7 @@
 package OOP09_Workshop2.models;
 
-import L10_Workshop_2.exeptions.ArgumentException;
+
+import OOP09_Workshop2.exeptions.ArgumentException;
 
 public class Jet extends Engine {
     public Jet(String model, int horsepower, int displacement) throws ArgumentException {

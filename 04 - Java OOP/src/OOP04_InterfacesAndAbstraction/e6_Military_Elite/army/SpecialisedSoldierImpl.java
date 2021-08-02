@@ -1,7 +1,7 @@
 package OOP04_InterfacesAndAbstraction.e6_Military_Elite.army;
 
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.enums.Corps;
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.interfaces.SpecialisedSoldier;
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.enums.Corps;
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.interfaces.SpecialisedSoldier;
 
 public abstract class SpecialisedSoldierImpl extends PrivateImpl implements SpecialisedSoldier {
     private Corps corps;

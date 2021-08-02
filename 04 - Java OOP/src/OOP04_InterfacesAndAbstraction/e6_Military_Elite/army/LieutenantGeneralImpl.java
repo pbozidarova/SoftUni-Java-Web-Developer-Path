@@ -1,7 +1,8 @@
 package OOP04_InterfacesAndAbstraction.e6_Military_Elite.army;
 
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.interfaces.LieutenantGeneral;
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.interfaces.Private;
+
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.interfaces.LieutenantGeneral;
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.interfaces.Private;
 
 import java.util.Comparator;
 import java.util.Set;

@@ -1,7 +1,7 @@
 package OOP09_Workshop2.models;
 
-import L10_Workshop_2.exeptions.ArgumentException;
-import L10_Workshop_2.helpers.Validator;
+import OOP09_Workshop2.exeptions.ArgumentException;
+import OOP09_Workshop2.helpers.Validator;
 
 public class SailBoat extends Boat {
     public int sailEfficiency;

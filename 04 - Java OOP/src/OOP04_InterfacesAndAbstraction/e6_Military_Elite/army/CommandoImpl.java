@@ -1,8 +1,8 @@
 package OOP04_InterfacesAndAbstraction.e6_Military_Elite.army;
 
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.enums.Corps;
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.helperClasses.interfaces.Mission;
-import L4_Interfaces_And_Abstractions.e6_Military_Elite.army.interfaces.Commando;
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.enums.Corps;
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.helperClasses.interfaces.Mission;
+import OOP04_InterfacesAndAbstraction.e6_Military_Elite.army.interfaces.Commando;
 
 import java.util.ArrayList;
 import java.util.Collection;

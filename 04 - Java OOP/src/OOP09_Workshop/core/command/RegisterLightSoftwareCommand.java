@@ -1,9 +1,8 @@
 package OOP09_Workshop.core.command;
 
-import L10_Workshop.core.model.software.ExpressSoftware;
-import L10_Workshop.core.model.software.LightSoftware;
-import L10_Workshop.core.model.software.Software;
-import L10_Workshop.core.system.SystemSplit;
+import OOP09_Workshop.core.model.software.LightSoftware;
+import OOP09_Workshop.core.model.software.Software;
+import OOP09_Workshop.core.system.SystemSplit;
 
 public class RegisterLightSoftwareCommand extends BaseCommand {
     private SystemSplit systemSplit;

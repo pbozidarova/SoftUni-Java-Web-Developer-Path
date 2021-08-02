@@ -1,9 +1,9 @@
 package OOP09_Workshop2.core;
 
-import L10_Workshop_2.exeptions.ArgumentException;
-import L10_Workshop_2.models.Engine;
-import L10_Workshop_2.models.Jet;
-import L10_Workshop_2.models.Sterndrive;
+import OOP09_Workshop2.exeptions.ArgumentException;
+import OOP09_Workshop2.models.Engine;
+import OOP09_Workshop2.models.Jet;
+import OOP09_Workshop2.models.Sterndrive;
 
 public class EngineProducer implements EngineFactory{
 

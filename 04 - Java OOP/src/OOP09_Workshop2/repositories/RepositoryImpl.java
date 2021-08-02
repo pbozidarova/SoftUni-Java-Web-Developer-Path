@@ -1,8 +1,8 @@
 package OOP09_Workshop2.repositories;
 
-import L10_Workshop_2.exeptions.DuplicateModelException;
-import L10_Workshop_2.exeptions.NonExistantModelException;
-import L10_Workshop_2.models.interfaces.Model;
+import OOP09_Workshop2.exeptions.DuplicateModelException;
+import OOP09_Workshop2.exeptions.NonExistantModelException;
+import OOP09_Workshop2.models.interfaces.Model;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ public class RepositoryImpl<T extends Model> implements Repository<T> {
     }
 
     @Override
-    public void add(T entity) throws DuplicateModelException{
+    public void add(T entity) throws DuplicateModelException {
         if(this.entities.containsKey(entity.getModel())){
             throw new DuplicateModelException ();
         }

@@ -1,6 +1,6 @@
 package OOP09_Workshop2.models;
 
-import L10_Workshop_2.exeptions.ArgumentException;
+import OOP09_Workshop2.exeptions.ArgumentException;
 
 public class PowerBoat extends Boat {
     private Engine primaryEngine;

@@ -1,11 +1,12 @@
 package OOP05_Polymorphism.e2;
 
-import L5_Polymorphism.e2.vehicle.Bus;
-import L5_Polymorphism.e2.vehicle.Car;
-import L5_Polymorphism.e2.vehicle.Truck;
-import L5_Polymorphism.e2.vehicle.Vehicle;
+import OOP05_Polymorphism.e2.vehicle.Bus;
+import OOP05_Polymorphism.e2.vehicle.Car;
+import OOP05_Polymorphism.e2.vehicle.Truck;
+import OOP05_Polymorphism.e2.vehicle.Vehicle;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

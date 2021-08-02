@@ -1,6 +1,6 @@
 package OOP09_Workshop.core.command.factory;
 
-import L10_Workshop.core.command.Command;
+import OOP09_Workshop.core.command.Command;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

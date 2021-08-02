@@ -1,6 +1,6 @@
 package OOP09_Workshop.core.command;
 
-import L10_Workshop.core.system.SystemSplit;
+import OOP09_Workshop.core.system.SystemSplit;
 
 public class SystemSplitCommand extends BaseCommand {
     private SystemSplit systemSplit;

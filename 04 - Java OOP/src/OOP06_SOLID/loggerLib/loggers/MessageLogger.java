@@ -1,10 +1,11 @@
 package OOP06_SOLID.loggerLib.loggers;
 
-import L6_SOLID.loggerLib.appenders.interfaces.Appender;
-import L6_SOLID.loggerLib.enumerations.ReportLevel;
-import L6_SOLID.loggerLib.loggers.interfaces.Logger;
+import OOP06_SOLID.loggerLib.appenders.interfaces.Appender;
+import OOP06_SOLID.loggerLib.enumerations.ReportLevel;
+import OOP06_SOLID.loggerLib.loggers.interfaces.Logger;
 
 import java.io.IOException;
+
 
 public class MessageLogger implements Logger {
     private Appender[] appenders;

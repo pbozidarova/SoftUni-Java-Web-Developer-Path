@@ -1,9 +1,9 @@
 package OOP09_Workshop2.models;
 
-import L10_Workshop_2.exeptions.ArgumentException;
-import L10_Workshop_2.helpers.Validator;
-import L10_Workshop_2.models.interfaces.Model;
-import L10_Workshop_2.models.interfaces.Output;
+import OOP09_Workshop2.exeptions.ArgumentException;
+import OOP09_Workshop2.helpers.Validator;
+import OOP09_Workshop2.models.interfaces.Model;
+import OOP09_Workshop2.models.interfaces.Output;
 
 public abstract class Engine implements Comparable<Engine>, Output, Model {
     private static final int MIN_MODEL_LENGTH = 3;
