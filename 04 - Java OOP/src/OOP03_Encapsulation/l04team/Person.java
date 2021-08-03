@@ -54,7 +54,7 @@ public class Person {
 
 
     public void setAge(int age) {
-        if(this.age < 1){
+        if(age < 1){
             throw new IllegalArgumentException("Age cannot be zero or negative integer");
         }
 
