@@ -1,4 +1,4 @@
-package OOP05_Polymorphism.е5.word;
+package OOP05_Polymorphism.e5.word;
 
 import java.util.ArrayList;
 import java.util.HashMap;
