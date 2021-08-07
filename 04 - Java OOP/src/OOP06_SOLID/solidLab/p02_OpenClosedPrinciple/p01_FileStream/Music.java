@@ -1,29 +1,10 @@
-package solidLab.p02_OpenClosedPrinciple.p01_FileStream;
+package OOP06_SOLID.solidLab.p02_OpenClosedPrinciple.p01_FileStream;
 
-public class Music {
-    private int length;
-
-    private int sent;
+public class Music extends StreamableObject {
 
     private String Artist;
 
     private String Album;
-
-    public int getLength() {
-        return this.length;
-    }
-
-    public void setLength(int length) {
-        this.length = length;
-    }
-
-    public int getSent() {
-        return this.sent;
-    }
-
-    public void setSent(int sent) {
-        this.sent = sent;
-    }
 
     public String getArtist() {
         return this.Artist;

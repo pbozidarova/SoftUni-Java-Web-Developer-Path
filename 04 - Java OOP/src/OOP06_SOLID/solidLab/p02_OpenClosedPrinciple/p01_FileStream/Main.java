@@ -1,8 +1,14 @@
-package solidLab.p02_OpenClosedPrinciple.p01_FileStream;
+package OOP06_SOLID.solidLab.p02_OpenClosedPrinciple.p01_FileStream;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        StreamableObject file = new File();
+
+        StreamableObject music = new Music();
+
+        System.out.println(Progress.getCurrentPercent(file));
+        System.out.println(Progress.getCurrentPercent(music));
+
     }
 }
-
