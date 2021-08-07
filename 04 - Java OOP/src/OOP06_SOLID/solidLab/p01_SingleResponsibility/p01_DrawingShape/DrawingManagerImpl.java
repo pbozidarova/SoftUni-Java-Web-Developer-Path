@@ -1,23 +1,18 @@
-package solidLab.p01_SingleResponsibility.p01_DrawingShape;
+package OOP06_SOLID.solidLab.p01_SingleResponsibility.p01_DrawingShape;
 
-import solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.DrawingManager;
-import solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.DrawingRepository;
-import solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Shape;
-
+import OOP06_SOLID.solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.DrawingManager;
+import OOP06_SOLID.solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.DrawingRepository;
+import OOP06_SOLID.solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Renderer;
+import OOP06_SOLID.solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Shape;
 
 public class DrawingManagerImpl implements DrawingManager {
 
-    private final DrawingRepository drawingRepository;
-    private final solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Renderer renderer;
-
-    public DrawingManagerImpl(DrawingRepository drawingRepository, solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Renderer renderer) {
-        this.drawingRepository = drawingRepository;
-        this.renderer = renderer;
+    public DrawingManagerImpl(){
     }
 
 
     @Override
     public void draw(Shape shape) {
-        shape.draw(this.renderer, this.drawingRepository);
+        shape.draw();
     }
 }

@@ -1,6 +1,6 @@
+package OOP06_SOLID.solidLab.p01_SingleResponsibility.p01_DrawingShape;
 
-import solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.DrawingRepository;
-import solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Shape;
+import OOP06_SOLID.solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Shape;
 
 public class Rectangle implements Shape {
     private double width;
@@ -32,8 +32,7 @@ public class Rectangle implements Shape {
     }
 
     @Override
-    public void draw(solidLab.p01_SingleResponsibility.p01_DrawingShape.interfaces.Renderer rengerer, DrawingRepository drawingRepository) {
-        rengerer.render(drawingRepository,this);
-
+    public void draw() {
+        System.out.println("Rectangle");
     }
 }

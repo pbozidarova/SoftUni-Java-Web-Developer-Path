@@ -1,7 +1,7 @@
-package solidLab.p04_InterfaceSegregation.p02_identity;
+package OOP06_SOLID.solidLab.p04_InterfaceSegregation.p02_identity;
 
-import solidLab.p04_InterfaceSegregation.p02_identity.interfaces.Account;
-import solidLab.p04_InterfaceSegregation.p02_identity.interfaces.User;
+import OOP06_SOLID.solidLab.p04_InterfaceSegregation.p02_identity.interfaces.Account;
+import OOP06_SOLID.solidLab.p04_InterfaceSegregation.p02_identity.interfaces.User;
 
 public class AccountManager implements Account {
     private boolean requireUniqueEmail;
