@@ -4,4 +4,7 @@ public interface User {
     String getEmail();
 
     String getPasswordHash();
+
+    void changePassword(String oldPass, String newPass);
+
 }
