@@ -46,6 +46,7 @@ public class Vacation {
 
         System.out.printf("Total price: %.2f", totalDue);
 
+
     }
 
     private static Double calculatePrice(Double[] prices, int groupNumber, String dayOfTheWeek) {
