@@ -1,2 +1,2 @@
-# This is the demo fron the first React lecture
+# This is the demo from the first React lecture
 
