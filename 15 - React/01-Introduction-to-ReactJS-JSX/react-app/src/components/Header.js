@@ -1,12 +1,13 @@
 
 
-function Header(){
+function Header(props){
     let headingMessage = 'Hello React World!';
 
     return (
         <header className="App-header">
-	    	<h1>{ headingMessage + '...'}</h1>
-		    <h2>Hello on this line too</h2>
+	    	<h1>{ props.children}</h1>
+	    	<h2>{ headingMessage + '...'}</h2>
+		    <p>Hello on this line too</p>
     	</header>
     
     )
